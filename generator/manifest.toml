@@ -6,7 +6,7 @@ packages = [
   { name = "glam", version = "2.0.1", build_tools = ["gleam"], requirements = ["gleam_stdlib"], otp_app = "glam", source = "hex", outer_checksum = "66EC3BCD632E51EED029678F8DF419659C1E57B1A93D874C5131FE220DFAD2B2" },
   { name = "gleam_stdlib", version = "0.39.0", build_tools = ["gleam"], requirements = [], otp_app = "gleam_stdlib", source = "hex", outer_checksum = "2D7DE885A6EA7F1D5015D1698920C9BAF7241102836CE0C3837A4F160128A9C4" },
   { name = "gleeunit", version = "1.2.0", build_tools = ["gleam"], requirements = ["gleam_stdlib"], otp_app = "gleeunit", source = "hex", outer_checksum = "F7A7228925D3EE7D0813C922E062BFD6D7E9310F0BEE585D3A42F3307E3CFD13" },
-  { name = "html_lustre_converter", version = "1.0.0", build_tools = ["gleam"], requirements = ["glam", "gleam_stdlib", "javascript_dom_parser"], otp_app = "html_lustre_converter", source = "hex", outer_checksum = "DA9F87B2F69D991D28715B385D2F5FAEDC138A39A73E300A14A84A4C21C7555A" },
+  { name = "html_lustre_converter", version = "1.1.0", build_tools = ["gleam"], requirements = ["glam", "gleam_stdlib", "javascript_dom_parser"], otp_app = "html_lustre_converter", source = "hex", outer_checksum = "6BF297F41B3555BD339980F47B7E286B8B86AAAD08D36695FF0163D971418CCB" },
   { name = "javascript_dom_parser", version = "1.0.0", build_tools = ["gleam"], requirements = ["gleam_stdlib"], otp_app = "javascript_dom_parser", source = "hex", outer_checksum = "0E140ED4E2E0CDE6B747327BA62AA625B275DBD5F5871592AB15F674F7945B0A" },
   { name = "simplifile", version = "2.0.1", build_tools = ["gleam"], requirements = ["filepath", "gleam_stdlib"], otp_app = "simplifile", source = "hex", outer_checksum = "5FFEBD0CAB39BDD343C3E1CCA6438B2848847DC170BA2386DF9D7064F34DF000" },
 ]

@@ -5,10 +5,9 @@ import html_lustre_converter
 import javascript_dom_parser/deno_polyfill.{install_polyfill}
 import simplifile
 
-const imports = "
-import lustre/attribute.{attribute}
-import lustre/element.{type Element, element}
-import lustre/element/html\n
+const imports = "import lustre/attribute.{attribute}
+import lustre/element.{type Element}
+import lustre/element/svg
 "
 
 fn generate_individual(path, icon) {
@@ -43,7 +42,7 @@ fn generate_set(path, name) {
   let icons =
     dir
     |> list.map(generate_individual(path, _))
-    |> string.join("\n")
+    |> string.join("\n\n")
 
   let set_path = cwd <> "/src/gleroglero/" <> name <> ".gleam"
   let assert Ok(_) = simplifile.write(to: set_path, contents: imports <> icons)
