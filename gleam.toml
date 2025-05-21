@@ -1,5 +1,5 @@
 name = "gleroglero"
-version = "1.1.0"
+version = "1.2.0"
 
 # Fill out these fields if you intend to generate HTML documentation or publish
 # your project to the Hex package manager.
@@ -14,4 +14,4 @@ repository = { type = "github", user = "skinkade", repo = "gleroglero" }
 
 [dependencies]
 gleam_stdlib = ">= 0.34.0 and < 2.0.0"
-lustre = ">= 4.3.1 and < 5.0.0"
+lustre = ">= 5.0.0 and < 6.0.0"
